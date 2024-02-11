@@ -1,0 +1,166 @@
+body{
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  font-family:  "Outfit", sans-serif;
+  margin: 0px;
+}
+hr{
+  margin-left: 29px;
+  width: 350px;
+  opacity: 0.5;
+}
+.main{
+  background-color: white;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right:20px;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+img{
+  height: 170px;
+  border-radius: 5px;
+  
+}
+.head{
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 10px;
+  color: black;
+}
+.bwata1{
+  margin-top: 10px;
+  width: 371px;
+  margin-bottom: 10px;
+}
+.mo9adima{
+  color: hsl(0, 0%, 49%);
+  font-size: 9px;
+ 
+}
+.wardi{
+  position: relative;
+  height: 90px;
+  width: 371px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 5px;
+}
+.Preparation-time{
+  position: absolute;
+  top:12px;
+  left: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  color: hsl(332, 51%, 32%);
+}
+.gen-info{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 12px;
+  left: -15px;
+  gap: 7px;
+}
+.gen-info li{
+  font-size: 8px;
+  color:hsl(0, 0%, 49%);
+}
+.gen span{
+  margin-left: 10px;
+  font-family:  "Outfit", sans-serif;
+  font-size: 8px;
+}
+
+.gen::marker{
+  color: hsl(332, 51%, 32%);;
+  font-size: 8px; 
+}
+.head2{
+  font-family: "Young Serif", serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+  color:  hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+.head3{
+  font-family: "Young Serif", serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 10px;
+  color:  hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+}
+.det-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.det::marker{
+  color: hsl(14, 45%, 36%);
+  font-size: 8px; 
+}
+.det span{
+  margin-left: 10px;
+  font-family:  "Outfit", sans-serif;
+  font-size: 8px;
+  color: hsl(0, 0%, 49%);
+}
+.det div{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family:  "Outfit", sans-serif;
+  font-size: 8px;
+  color: hsl(0, 0%, 49%);
+  width: 299px;
+}
+.Ingredients{
+  margin-left:-20px ;
+  margin-top: -10px;
+}
+.det-info li{
+  margin-bottom: -5px;
+}
+.cal{
+  margin-left: 20px;
+}
+.last{
+  margin-top: 15px;
+  display:flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.last p{
+  color: hsl(0, 0%, 49%);
+  font-size: 8px;
+  font-weight: 600;
+}
+.bwata2{
+  margin-left: 10px;
+  display: flex;
+  width: 300px;
+  
+  gap: 170px;
+}
+.mada{
+  width: 100px;
+}
+.bwata2 p{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+.bwata2 .mada p{
+  color: hsl(0, 0%, 49%);
+  font-size: 8px;
+  font-weight: 600;
+}
+.last hr{
+  width: 360px;
+  margin-left: 0px;
+}

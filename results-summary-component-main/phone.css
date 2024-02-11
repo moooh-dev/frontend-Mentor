@@ -1,0 +1,114 @@
+@media screen  and (max-width:376px)
+{
+
+  body{
+    padding-left: -100px;
+    padding-top:60px;
+    display: flex;
+    height: 100vh;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width:250px;
+    background-color: white;
+    box-shadow: 2px 2px 2px hsl(225, 61%, 86%);
+    border-radius: 20px;
+    
+  }
+  .Results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: hsl(241, 81%, 54%);
+    height: 40%;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 20px;
+    }
+
+    .dwayra{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(17, 36, 210);
+      padding: 10px 20px;
+      border-radius: 50%;
+      margin-bottom: -5px;
+    }
+    .ra9am1{
+      color: white;
+      font-size: 30px;
+      font-weight: 800;
+    }
+    .Great{
+      margin-top: 20px;
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 15px;
+    }
+    .bwata{
+      margin-top: -10px;
+      width: 170px;
+      text-align: center;
+    }
+    .last-ktiba{
+      font-size: 10px;
+      color:rgba(209, 209, 209, 0.89); ;
+    }
+    /* sumru part */
+    .summary{
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      height: 60%;
+      width: 100%;
+      z-index: 1000;
+      border-radius: 20px;
+      margin-left: 15px;
+      margin-bottom:-100px;
+      }
+      .bars{
+        margin-top: 25px;
+        margin-left: -15px;
+        display: flex;
+        width: 250px;
+        height: 200px;
+        align-items: center;
+        gap: 15px;
+       
+      }
+      .bar1, .bar2 ,.bar3 ,.bar4{
+        display: flex;
+        position: relative;
+        padding: 10px 2px;
+        width: 220px;
+        height:35px ;
+        align-items: center;
+        border-radius: 6px;
+      }
+      .Continue{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 110px;
+        background-color: #303b59;
+        border-radius: 30px;
+        margin-top: 0px;
+        transition: all 0.15s;
+        border: 2px solid;
+      }
+      .Continue:active{
+       background-color: hsl(241, 81%, 54%);
+       cursor: pointer;
+      
+      }
+      .c{
+        color: white;
+        font-size: 12px;
+      }
+}
